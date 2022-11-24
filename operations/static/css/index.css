@@ -1,0 +1,75 @@
+/* Green color code   #0CB50C */
+
+
+/* blue color code    #0B1487 */
+
+#new_nav_image {
+    width: 250px;
+}
+
+#nav_bar_self {
+    background-color: #e9f1f8;
+}
+
+#center_nav_items {
+    /* margin-left: 150px; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#nav_link {
+    padding-right: 15px;
+    color: #0B1487;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+#track_input {
+    width: 180px;
+    height: 30px;
+}
+
+#track_button {
+    height: 30px;
+    text-align: center;
+}
+
+.btn-change {
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.btn-change:hover {
+    -webkit-transform: scale(1.2);
+    color: #0CB50C !important;
+}
+
+@media only screen and (max-width: 1460px) {
+    #nav_link {
+        padding-right: 3px;
+        color: #0B1487;
+    }
+    #center_nav_items {
+        /* margin-left: 150px; */
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    #center_nav_items {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+    #new_nav_image {
+        width: 200px;
+    }
+    .btn-change {
+        -webkit-transition: all 0.5s ease-in-out;
+    }
+    .btn-change:hover {
+        -webkit-transform: scale(0.1);
+        color: #0CB50C !important;
+    }
+}
